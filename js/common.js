@@ -107,7 +107,11 @@ function scrollUp() {
 
     $('.link-footer').click(function () {
         $('body,html').animate({scrollTop:0},500);
-    })
+    });
+
+    $('.wrapper-menu-header_link').click(function () {
+        $('body,html').animate({scrollTop:0},0);
+    });
 }
 
 function initFixBlock() {
