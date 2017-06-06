@@ -3001,7 +3001,7 @@ p {
     margin-left: -35px; }
 
   .swiper-slider-working {
-    width: 345px;
+    width: 100%;
     overflow: hidden;
     margin: 0 auto;
     position: relative; }
